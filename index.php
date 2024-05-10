@@ -10,16 +10,17 @@ require_once __DIR__ . '/db.php';
 </head>
 <body>
     <ul>
+        <?php
+        foreach($productions as $production){
+        ?>
         <li>
-            <h4><?php echo $avatar->title;?></h4>
-            <p><?php echo $avatar->language;?></p>
-            <p><?php echo $avatar->vote;?></p>
+            <h4><?php echo $production->title;?></h4>
+            <p><?php echo $production->language;?></p>
+            <p><?php echo $production->vote;?></p>
         </li>
-        <li>
-            <h4><?php echo $titanic->title;?></h4>
-            <p><?php echo $titanic->language;?></p>
-            <p><?php echo $titanic->vote;?></p>
-        </li>
+        <?php
+        }
+        ?>
     </ul>
 </body>
 </html>

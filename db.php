@@ -11,5 +11,9 @@ class Production {
     }
 }
 
+$productions = [];
 $avatar = new Production('Avatar', 'English', 9);
 $titanic = new Production('Titanic','English',10);
+
+$productions[] = $avatar;
+$productions[] = $titanic;
