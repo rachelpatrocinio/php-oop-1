@@ -43,6 +43,6 @@ require_once __DIR__ . '/db.php';
         </ul>
     </main>
 
-    <?php include __DIR__ .'/partials/header.php'?>
+    <?php include __DIR__ .'/partials/footer.php'?>
 </body>
 </html>
