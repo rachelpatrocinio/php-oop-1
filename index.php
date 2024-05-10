@@ -20,6 +20,8 @@ require_once __DIR__ . '/db.php';
                 <h4><?php echo $production->title;?></h4>
                 <p><?php echo $production->language;?></p>
                 <p><?php echo $production->vote;?></p>
+                <p><?php echo $production->genre->name?></p>
+                <p><?php echo $production->genre->description?></p>
             </li>
             <?php
             }
