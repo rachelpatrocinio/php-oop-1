@@ -38,6 +38,18 @@ require_once __DIR__ . '/db.php';
             </li>
             <?php    
             }
+            foreach($tv_series as $tv_serie){
+            ?>
+            <li>
+                <h4><?php echo $tv_serie->title?></h4>
+                <p><?php echo $tv_serie->language;?></p>
+                <p><?php echo $tv_serie->vote;?></p>
+                <p><?php echo $tv_serie->genre->name;?></p>
+                <p><?php echo $tv_serie->genre->description;?></p>
+                <p><?php echo $tv_serie->seasons;?></p>
+            </li>
+            <?php
+            }
             ?>
 
         </ul>
