@@ -9,7 +9,6 @@ require_once __DIR__ . '/db.php';
     <title>PRODUCTIONS</title>
 </head>
 <body>
-
     <?php include __DIR__ .'/partials/header.php'?>
 
     <main>
@@ -29,6 +28,5 @@ require_once __DIR__ . '/db.php';
     </main>
 
     <?php include __DIR__ .'/partials/header.php'?>
-
 </body>
 </html>

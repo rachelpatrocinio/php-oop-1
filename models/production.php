@@ -10,4 +10,8 @@ class Production {
         $this->language = $_language;
         $this->vote = $_vote;
     }
+
+    public function setVote($vote){
+        $this->vote = $vote;
+    }
 }
