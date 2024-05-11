@@ -13,14 +13,14 @@ require_once __DIR__ . '/db.php';
 <body class="body">
     <?php include __DIR__ .'/partials/header.php'?>
 
-    <main class="main-content pt-5 pb-5">
+    <main class="main-content pt-3 pb-5">
         <div class="container">
             <div class="row">
                 <ul class="d-flex flex-wrap">
                 <?php
                 foreach($productions as $production){
                 ?>
-                    <li class="col-3 p-3">
+                    <li class="col-lg-3 col-md-6 col-12 p-3">
                         <div class="card p-3">
                             <h4><?php echo $production->title;?></h4>
                             <p><?php echo $production->language;?></p>
@@ -33,7 +33,7 @@ require_once __DIR__ . '/db.php';
                     }
                     foreach($movies as $movie){
                     ?>
-                    <li class="col-3 p-3">
+                    <li class="col-lg-3 col-md-6 col-12 p-3">
                         <div class="card p-3">
                             <h4><?php echo $movie->title;?></h4>
                             <p><?php echo $movie->language;?></p>
@@ -48,7 +48,7 @@ require_once __DIR__ . '/db.php';
                     }
                     foreach($tv_series as $tv_serie){
                     ?>
-                    <li class="col-3 p-3">
+                    <li class="col-lg-3 col-md-6 col-12 p-3">
                         <div class="card p-3">
                             <h4><?php echo $tv_serie->title?></h4>
                             <p><?php echo $tv_serie->language;?></p>
