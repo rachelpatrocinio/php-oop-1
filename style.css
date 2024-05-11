@@ -1,0 +1,23 @@
+/* RESET */
+img{
+    max-width: 100%;
+}
+
+ul,ol,menu{
+    list-style: none;
+}
+
+/* LAYOUT */
+.body{
+    background-color: black;
+    color: white;
+}
+
+/* HEADER */
+.main-header{
+    height: 100px;
+}
+
+.main-header img{
+    width: 100px;
+}
