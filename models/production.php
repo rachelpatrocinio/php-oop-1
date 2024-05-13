@@ -10,7 +10,7 @@ class Production {
     function __construct(string $_title,string $_language,int $_vote, Genre $_genre){
         $this->title = $_title;
         $this->language = $_language;
-        $this->vote = $_vote;
+        $this->setVote($_vote);
         $this->genre = $_genre;
     }
 
